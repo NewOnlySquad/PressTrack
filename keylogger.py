@@ -12,7 +12,7 @@ import shutil
 
 # Telegram bot bilgileri
 TOKEN = "8015653627:AAGqbLWpHP5fxMz6VjbmlMDSMqRSmkeprmc"
-TELEGRAM_CHAT_ID = ""
+TELEGRAM_CHAT_ID = "<user_chat_id>"#telegram user id
 
 # Hafızada saklanacak log verisi
 log_data = []
