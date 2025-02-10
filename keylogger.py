@@ -11,7 +11,7 @@ import shutil
 
 
 # Telegram bot bilgileri
-TOKEN = "8015653627:AAGqbLWpHP5fxMz6VjbmlMDSMqRSmkeprmc"
+TOKEN = "" #Enter the Bot Token / You can get the token here  @BotFather
 TELEGRAM_CHAT_ID = "<user_chat_id>"#telegram user id
 
 # Hafızada saklanacak log verisi
