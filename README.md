@@ -25,14 +25,14 @@ Change Directory / Dizin Değiştirin:
 bash
 Kopyala
 Düzenle
-cd keylogger-tool
+cd PressTrack
 # Install Required Libraries / Gerekli Kütüphaneleri Yükleyin:
 
 bash
 Kopyala
 Düzenle
 pip install -r requirements.txt
-Set Up Your Telegram Bot Token and Chat ID / Telegram Bot Token'ınızı ve Chat ID'nizi Ayarlayın:
+Set Up Your-Chat ID / Chat ID'nizi Ayarlayın:
 
 2️⃣ Take the user ID
 Open the @userinfobot bot on Telegram.
